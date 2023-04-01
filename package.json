@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "this is just the test for misroservis/initial commit ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustMorv/servis.git"
+  },
+  "keywords": [
+    "js",
+    "nodeJS",
+    "servis",
+    "microServis"
+  ],
+  "author": "JustMovr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustMorv/servis/issues"
+  },
+  "homepage": "https://github.com/JustMorv/servis#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  }
+}
