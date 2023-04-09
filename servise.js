@@ -6,9 +6,11 @@ const port = process.env.PORT || 3000;
 
 const markupService = require('./markerServise');
 
+app.get("/",(reg,res)=>{
+	res.end("hello")
+})
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/microdata', (req, res) => {
   try {
